@@ -27,7 +27,7 @@ class _TambahStokFormState extends State<TambahStokForm> {
   final _jumlahDusController = TextEditingController();
   final _isiPerDusController = TextEditingController();
   final _hargaDusController = TextEditingController();
-  final _hargaJualController = TextEditingController();
+  late TextEditingController _hargaJualController;
 
   double _modalPerUnit = 0;
   bool _isSubmitting = false;

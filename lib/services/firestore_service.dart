@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/produk_model.dart';
 import '../models/transaksi_model.dart';
-import '../models/pembelian_model.dart';
 import '../models/laporan_keuangan_model.dart';
 
 class FirestoreService {

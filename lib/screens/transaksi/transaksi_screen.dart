@@ -370,7 +370,7 @@ class _KeranjangTab extends StatelessWidget {
         if (tx.errorMessage != null)
           Container(
             width: double.infinity,
-            color: AppColors.danger.withOpacity(0.1),
+            color: AppColors.danger.withValues(alpha: 0.1),
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
             child: Row(
               children: [

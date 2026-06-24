@@ -330,7 +330,7 @@ class _StatCard extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
-                color: color.withOpacity(0.1),
+                color: color.withValues(alpha: 0.1),
                 borderRadius: BorderRadius.circular(8),
               ),
               child: Icon(icon, color: color, size: 20),
@@ -398,7 +398,7 @@ class _GrafikCard extends StatelessWidget {
                   maxY: maxY > 0 ? maxY * 1.2 : 10000,
                   barTouchData: BarTouchData(
                     touchTooltipData: BarTouchTooltipData(
-                      tooltipBgColor: AppColors.neutralDark.withOpacity(0.85),
+                      tooltipBgColor: AppColors.neutralDark.withValues(alpha: 0.85),
                       getTooltipItem: (group, gi, rod, ri) {
                         final d = data[group.x];
                         final label = ri == 0
@@ -554,7 +554,7 @@ class _ErrorCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: AppColors.danger.withOpacity(0.05),
+      color: AppColors.danger.withValues(alpha: 0.05),
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Row(
