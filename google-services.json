@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "34287283160",
+    "project_id": "warung-app-13ab0",
+    "storage_bucket": "warung-app-13ab0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34287283160:android:f72b180c2ef59ef982a0ad",
+        "android_client_info": {
+          "package_name": "com.warungapp.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBokjO23GNJAUSzXxb2U0yaiBBihW11hfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

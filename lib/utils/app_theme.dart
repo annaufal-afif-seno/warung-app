@@ -99,7 +99,7 @@ class AppTheme {
           borderSide: const BorderSide(color: AppColors.danger),
         ),
       ),
-      cardTheme: CardThemeData(
+      cardTheme: CardTheme.of(context).copyWith(
         color: AppColors.surface,
         elevation: 1,
         shape: RoundedRectangleBorder(

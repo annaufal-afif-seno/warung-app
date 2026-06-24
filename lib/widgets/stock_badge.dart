@@ -16,11 +16,11 @@ class StockBadge extends StatelessWidget {
     String label;
 
     if (stok == 0) {
-      bgColor = AppColors.danger.withValues(alpha: 0.12);
+      bgColor = AppColors.danger.withOpacity(0.12);
       fgColor = AppColors.danger;
       label = 'Stok habis';
     } else if (stok <= threshold) {
-      bgColor = AppColors.secondary.withValues(alpha: 0.18);
+      bgColor = AppColors.secondary.withOpacity(0.18);
       fgColor = AppColors.secondary;
       label = 'Stok: $stok (hampir habis)';
     } else {
