@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
-import '../../widgets/app_bottom_nav_bar.dart';
-import '../dashboard/dashboard_screen.dart';
-import '../stok/manajemen_stok_screen.dart';
-import '../transaksi/transaksi_screen.dart';
-import '../laporan/laporan_screen.dart';
-import '../profil/profil_screen.dart';
+import 'package:warung_app/widgets/app_bottom_nav_bar.dart';
+import 'package:warung_app/screens/dashboard/dashboard_screen.dart';
+import 'package:warung_app/screens/stok/manajemen_stok_screen.dart';
+import 'package:warung_app/screens/transaksi/transaksi_screen.dart';
+import 'package:warung_app/screens/laporan/laporan_screen.dart';
+import 'package:warung_app/screens/profil/profil_screen.dart';
 
-/// HomeScreen — kontainer utama dengan BottomNavBar 5 menu
-/// (Dashboard, Manajemen Stok, Transaksi, Laporan, Profil)
-/// sesuai UIUX_Design_System.md §2.3
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 

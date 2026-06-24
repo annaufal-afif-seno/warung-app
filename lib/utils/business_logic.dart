@@ -63,7 +63,7 @@ bool cekStokCukup(int stokTersedia, int jumlahDiminta) {
 
 /// Format currency ke Rupiah
 String formatRupiah(double amount) {
-  final parts = amount.toStringAsFixed(0).split('').reversed.toList();
+  final parts = amount.floor().toString().split('').reversed.toList();
   final buffer = StringBuffer();
   for (int i = 0; i < parts.length; i++) {
     if (i > 0 && i % 3 == 0) buffer.write('.');
