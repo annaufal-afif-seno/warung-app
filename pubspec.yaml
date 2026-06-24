@@ -1,0 +1,40 @@
+name: warung_app
+description: Sistem Pembukuan, Pembelian & Manajemen Stok Warung — Mobile App
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+
+  # State management
+  provider: ^6.1.1
+
+  # Barcode scanner (F4 — Scan Barcode)
+  mobile_scanner: ^3.5.6
+
+  # Chart (F8 — Laporan Keuangan)
+  fl_chart: ^0.66.2
+
+  # Internasionalisasi tanggal (LaporanScreen)
+  intl: ^0.18.1
+
+  # UI tambahan
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
