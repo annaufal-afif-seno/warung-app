@@ -99,11 +99,11 @@ class AppTheme {
           borderSide: const BorderSide(color: AppColors.danger),
         ),
       ),
-      cardTheme: CardTheme.of(context).copyWith(
+      cardTheme: const CardTheme(
         color: AppColors.surface,
         elevation: 1,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.all(Radius.circular(12)),
         ),
       ),
       bottomNavigationBarTheme: const BottomNavigationBarThemeData(
